@@ -18,8 +18,7 @@ const workshops = [
     title: "Single Workshop",
     description:
       "Drop in for a hands-on session — perfect for beginners and curious first-timers. You'll leave with a piece you made yourself.",
-    image:
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop&q=80",
+    image: "/gallery/wheel-throwing.png",
     duration: "2 hours",
     price: "€40",
     badge: "Most Popular",
@@ -30,8 +29,7 @@ const workshops = [
     title: "6-Session Course",
     description:
       "Commit to the craft. Six guided sessions that take you from first touch of clay to a fully glazed and fired collection of your own work.",
-    image:
-      "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&h=400&fit=crop&q=80",
+    image: "/gallery/wheel-teaching.png",
     duration: "6 sessions",
     price: "€200",
     badge: "Best Value",
@@ -83,7 +81,6 @@ export function WorkshopsSection() {
                   alt={workshop.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 <Badge className="absolute bottom-3 left-3 bg-terracotta text-cream">
