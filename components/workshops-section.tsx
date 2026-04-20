@@ -31,7 +31,7 @@ const workshops = [
       "Commit to the craft. Six guided sessions that take you from first touch of clay to a fully glazed and fired collection of your own work.",
     image: "/gallery/wheel-teaching.png",
     duration: "6 sessions",
-    price: "€200",
+    price: "€220",
     badge: "Best Value",
     includes: ["Clay", "All tools", "Kiln firing", "Personal feedback"],
   },
